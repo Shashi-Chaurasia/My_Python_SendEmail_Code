@@ -73,15 +73,15 @@ def send_email(subject):
                 print(f"Email will send on {Schedule}")
                 print("************************************************************")
                                             
-        print(f"Successful Sent Email")
+        print("Successful Sent Email")
         
 
             
     except:
-        print("Requirement Failure")
+        print("Email Sent Failed : Please check all requirement ")
 
 
 
 
-send_email(subject="test")
+send_email(subject="Screen-Magic")
 
